@@ -130,7 +130,7 @@ const handleCompleteTodo = async (id: string) => {
             <img 
               src="/DoItWithJuul.png" 
               alt="Multitasking vrouw" 
-              className="w-80 h-48 object-cover rounded-2xl shadow-lg"
+              className="w-96 h-auto object-cover rounded-2xl shadow-lg"
             />
           </div>
           
