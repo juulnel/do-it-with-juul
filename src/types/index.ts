@@ -15,6 +15,15 @@ export interface Todo {
   updated_at: string;
 }
 
+export interface Settings {
+  id: string;
+  week_size: number;
+  max_high_per_week: number;
+  max_medium_per_week: number;
+  created_at: string;
+  updated_at: string;
+}
+
 export interface Reward {
   id: string;
   threshold_points: number;
@@ -27,21 +36,12 @@ export interface Reward {
   updated_at: string;
 }
 
-export interface Reward {
-  id: string;
-  threshold_points: number;
-  reward_name: string;
-  created_at: string;
-  updated_at: string;
-}
-
 export interface WeeklyTodo extends Todo {
   points: number;
   is_available: boolean;
   weeks_since_completed: number;
 }
 
-export interface MonthlyStats {
 export interface MonthlyStats {
   total_points: number;
   available_points: number;
