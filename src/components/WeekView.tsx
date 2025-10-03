@@ -126,11 +126,11 @@ const handleCompleteTodo = async (id: string) => {
       {activeTodos.length === 0 && (
         <div className="text-center space-y-6">
           {/* Start Image */}
-          <div className="flex justify-center">
+          <div className="flex justify-center px-4">
             <img 
               src="/DoItWithJuul.png" 
               alt="Multitasking vrouw" 
-              className="w-60 h-auto object-cover rounded-2xl shadow-lg"
+              className="w-full max-w-md object-cover rounded-2xl shadow-lg"
             />
           </div>
           
